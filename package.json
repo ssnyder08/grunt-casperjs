@@ -46,7 +46,6 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "install": "node install.js",
     "test": "grunt test"
   },
   "dependencies": {
