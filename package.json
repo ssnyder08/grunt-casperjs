@@ -46,8 +46,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
-    "install": "npm install",
-    "test": "grunt test"
+    "preinstall": "npm install"
   },
   "dependencies": {
     "phantomjs": "~1.9.1",
