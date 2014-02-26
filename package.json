@@ -46,6 +46,7 @@
     "node": ">= 0.8.0"
   },
   "scripts": {
+    "install": "npm install",
     "test": "grunt test"
   },
   "dependencies": {
