@@ -50,8 +50,7 @@
     "adm-zip": "~0.4.3",
     "kew": "~0.3.4",
     "npmconf": "2.0.3",
-    "tunnel": "~0.0.3",
-    "casperjs": "~1.1.0"
+    "tunnel": "~0.0.3"
   },
   "devDependencies": {
     "grunt-contrib-jshint": "~0.1.1",
