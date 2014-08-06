@@ -7,6 +7,9 @@ exports.init = function(grunt) {
   exports.casperjs = function(filepath, options, callback) {
 
     var command = "./node_modules/.bin/casperjs";
+    if(process.platform === 'win32'){
+       command += command + ".cmd";
+    }
     if (!fs.existsSync(command)) {
       grunt.log.error("CasperJS not found");
       command = path.join(__dirname, '..', '..', '..', 'casperjs', 'bin', 'casperjs');
