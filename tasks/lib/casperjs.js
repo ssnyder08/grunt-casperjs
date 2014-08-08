@@ -8,7 +8,7 @@ exports.init = function(grunt) {
 
     var command = "./node_modules/.bin/casperjs";
     if(process.platform === 'win32'){
-       command += command + ".cmd";
+       command += ".cmd";
        grunt.log.writeln("Win32 Command: " + command);
     }
     if (!fs.existsSync(command)) {
